@@ -133,14 +133,14 @@ body {
 }
 
 .theme-dark {
-	--header-primary:red;
-	--header-secondary: purple;
+	--header-primary:#00de30;
+	--header-secondary: pink;
 	--text-normal: #ffffff;
 	--text-muted: #72767d;
-	--text-link: #d45df8d0;
+	--text-link: #5cf78fd0;
 	--channels-default:  #b5246a;
 	--interactive-normal:  #e478ff;
-	--interactive-hover: yellow;
+	--interactive-hover: white;
 	--interactive-active: yellow;
 	--interactive-muted: #4f545c;
 
@@ -149,7 +149,7 @@ body {
 	--background-tertiary: #1e091f17;
 	--background-secondary-alt: #1f091323;
 	
-	--background-accent:#fcfcfc;
+	--background-accent:#7fb3ff;
 	--background-floating: rgba(242, 68, 204, 0.35);
 
 	--background-mobile-primary: transparent;
