@@ -1,0 +1,314 @@
+ /**
+ * @name MeguCord
+ * @author Vormix_Sv
+ * @description Explosive Megumin Discord Theme by Vormix_Sv!
+ * @version 2
+ * @authorId 575400456570798080
+ * @website https://steamcommunity.com/id/V_Sv_Profile/
+ * @source https://github.com/VormixSv/MeguCord-Discord-Theme
+ * @invite 6dMCvAKhnp
+ */
+
+ .appMount-31Hmkl {
+	background-image: url(https://images6.alphacoders.com/695/695608.jpg);
+	
+} 
+
+
+/* close button from settings */
+.theme-dark .closeButton-1tv5uR {
+    border: 2px solid #aa6bce;
+}
+
+.theme-dark .closeButton-1tv5uR:hover {
+    background-color: rgba(187, 107, 207, 0.37);
+}
+/* .. */
+
+.lookOutlined-3sRXeN.colorBrand-3pXr91 {
+    color: white;
+    border-color: rgba(207, 107, 144, 0.66) !important;
+}
+
+
+::placeholder, body, button, input, select, textarea {
+	font-family: cursive;
+	text-rendering: optimizeLegibility;
+}
+
+
+
+/*popouts */
+.userPopout-3XzG_A {
+	background: transparent;
+	box-shadow: none;
+	border-radius: 25px;
+	background-size: cover;
+	background: url(https://images2.alphacoders.com/793/thumb-1920-793427.png) 70%/cover;
+	
+}
+
+.theme-dark .body-3iLsc4,
+.theme-dark .bodyInner-245q0L,
+.theme-dark .footer-1fjuF6 {
+    background-color: transparent;
+    color: green;
+}
+
+
+.popout-2iWAc- {
+    box-shadow: none;
+}
+
+.headerPlaying-j0WQBV{
+    background: rgba(98, 148, 240, 0.158);
+}
+
+.topSectionPlaying-1J5E4n {
+    background: rgba(0, 0, 0, 0.411);
+}
+
+.actionButton-3W1xZa.button-38aScr.lookInverted-2D7oAl.colorBrand-3pXr91.sizeSmall-2cSMqn.grow-q77ONN {
+	background-color: #813adec2;
+	border: 1px;
+	border-style: solid;
+	border-color: purple;
+}
+.contents-18-Yxp {
+	color: red;
+}
+.note-QfFU8y {
+	background-color:#ed6de931;
+}
+.textarea-2r0oV8.inputDefault-_djjkz.input-cIJ7To.scrollbarGhostHairline-1mSOM1.scrollbar-3dvm_9 {
+	color:green;
+}
+
+.headerSpotify-zpWxgT,
+.headerXbox-3G-4PF {
+    background: rgba(82, 17, 29, 0.08);
+}
+.topSectionXbox-3fWLjS,
+.topSectionSpotify-1lI0-P {
+    background: rgba(115, 240, 146, 0.144);
+}
+
+.headerStreaming-2FjmGz {
+    background: rgba(65, 20, 113, 0.253);
+}
+
+.topSectionStreaming-1Tpf5X {
+    background: rgba(65, 20, 113, 0.253);
+}
+.theme-dark .headerNormal-T_seeN {
+    background-color: rgba(212, 61, 187, 0.12);
+}
+
+.topSectionNormal-2-vo2m {
+    background-color: rgba(33, 30, 33, 0.61);
+}
+
+.body-3ND3kc {
+	background-color:rgba(44, 42, 51, 0.02);
+}
+
+ 
+
+.root-SR8cQa,
+.uploadArea-3QgLtW {
+	border-radius: 12px;
+    background: url(https://images2.alphacoders.com/793/thumb-1920-793427.png) 10%/cover;
+	box-shadow:none;
+}
+
+
+
+body {
+	background-size: cover;
+	background-color: transparent;
+	background-image: url(https://images6.alphacoders.com/695/695608.jpg);
+	box-shadow:none;
+
+	
+}
+
+.theme-dark {
+	--header-primary:red;
+	--header-secondary: purple;
+	--text-normal: #ffffff;
+	--text-muted: #72767d;
+	--text-link: #d45df8d0;
+	--channels-default:  #b5246a;
+	--interactive-normal:  #e478ff;
+	--interactive-hover: yellow;
+	--interactive-active: yellow;
+	--interactive-muted: #4f545c;
+
+	--background-primary: #16091f3b;
+	--background-secondary: #20113860;
+	--background-tertiary: #1e091f17;
+	--background-secondary-alt: #1f091323;
+	
+	--background-accent:#fcfcfc;
+	--background-floating: rgba(242, 68, 204, 0.35);
+
+	--background-mobile-primary: transparent;
+	--background-mobile-secondary: transparent;
+
+	
+	--background-modifier-hover: #d0f3;
+	--background-modifier-selected: #ff00e54b;
+	--background-modifier-active: transparent;
+	--background-modifier-accent: hsla(0,0%,100%,0.06);
+	
+	--background-mentioned: rgba(189, 47, 158, 0.21);
+	--background-mentioned-hover: rgba(250, 25, 212, 0.08);
+	--background-message-mentioned:#d45df8d0;
+
+
+	--scrollbar-thin-thumb:  #d45df8d0;
+	--scrollbar-thin-track: transparent;
+	--scrollbar-auto-thumb: #d45df8d0;
+	--scrollbar-auto-track: #fc3fc710;
+	--scrollbar-auto-scrollbar-color-thumb: #202225;
+	--scrollbar-auto-scrollbar-color-track: #2f3136;
+	
+	--elevation-stroke: 0 0 0 1px rgba(251, 0, 255, 0.38);
+	--elevation-low: 0 1px 0 rgba(237, 33, 217, 0.18),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
+
+	--radio-group-dot-foreground: #d45df8d0;
+
+	--channeltextarea-background: transparent;
+	--textbox-markdown-syntax: green;
+
+	--focus-primary: green;
+
+    --activity-card-background: transparent;
+	--deprecated-quickswitcher-input-background: #075df3;
+
+}
+.searchBar-3dMhjb {
+		color: green;
+		background-color: rgba(0, 0, 0, 0.30);
+	}
+
+.theme-dark .container-3ayLPN {
+		background-color: transparent;
+		border-radius: 10px;
+	}
+	
+.theme-dark .tooltipBlack-PPG47z {
+		background: linear-gradient(1deg, #9900ff5d 0%, #ff05e6e8 47%, #9900ff5d 100%);
+		border-radius: 12px;
+	}
+
+
+/*discord icon */
+.childWrapper-anI2G9{
+	background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/aceb38dc-c0bb-4f2a-80ce-0fa6eb654217/dfmsern-e8ef59a3-317e-4427-be82-e0eb172f5f70.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2FjZWIzOGRjLWMwYmItNGYyYS04MGNlLTBmYTZlYjY1NDIxN1wvZGZtc2Vybi1lOGVmNTlhMy0zMTdlLTQ0MjctYmU4Mi1lMGViMTcyZjVmNzAucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.O8VvUhXDyC2nTdjUvhI9H7nk6u1VUv3n8UZUA1ER-cI) 10%/cover;
+}
+.homeIcon-tEMBK1 {
+	display: none;
+}
+
+.item-2hkk8m{
+	background: linear-gradient(100deg, #cb87f85d 20%, #ff05b8e8 100%,#cb87f85d 0%);
+}
+
+.circleIconButton-jET_ig:hover {
+	background:  #9d00ff4b
+}
+
+
+.guildSeparator-3s64Iy {
+	background: rgba(255, 0, 247, 0.44);
+}
+
+.searchBar-6Kv8R2 {
+	background: #1f091423;
+}
+
+
+.title-3qD0b-.container-1r6BKw.themed-ANHk51 {
+	background-color: transparent;
+}
+ 
+.icon-22AiRD{
+	color: green;
+}
+
+.peopleListItem-2nzedh:hover {
+	border-style: solid;
+	border-color: rgba(251, 0, 255, 0.82);
+}
+
+
+.theme-dark .root-1BQpZw,
+.scroller-5bBood,
+.gameLibrary-TTDw4Y,
+.scroller-1IIF0A,
+.theme-dark .container-1D34oG,
+.theme-dark .peopleList-3c4jOR,
+.applicationStore-1pNvnv,
+.scroller-9moviB {
+    background-color: transparent;
+}
+
+.channel-2QD9_O.container-2Pjhx-.clickable-1JJAn8:hover,
+.channel-2QD9_O.container-2Pjhx-.selected-aXhQR6{
+	border: 1px;
+	border-style: solid;
+	border-color: rgba(204, 0, 255, 0.85);
+
+}
+
+
+.button-1YfofB.buttonColor-7qQbGO.button-38aScr.lookFilled-1Gx00P.colorBrand-3pXr91.sizeSmall-2cSMqn.grow-q77ONN.button-1YfofB {
+	background-color: rgba(122, 57, 227, 0.75);
+}
+
+.item-PXvHYJ.selected-3s45Ha.themed-OHr7kt,
+.item-PXvHYJ.themed-OHr7kt:hover {
+	border: 1px;
+	border-style: solid;
+	border-color: rgba(255, 0, 183, 0.85);
+}
+
+/*upload area*/
+.item-1tOPte.labelContainer-1BLJti.colorDefault-2K3EoJ:hover{
+	background-color: #ff00f74b;
+}
+
+.item-1tOPte.labelContainer-1BLJti.colorDefault-2K3EoJ {
+	background-color: transparent
+}
+
+
+
+.theme-dark .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
+    background-color: rgba(0, 140, 153, 0.4);
+    border: 3px solid black;
+    border-radius: 10%;
+    box-shadow: 5px 9px 8px rgba(0, 0, 0, 0.42),5px 4px 8px rgba(0, 0, 0, 0.42),0 0 18px rgba(0, 0, 0, 0.7);
+}
+
+.theme-dark .uploadModal-2ifh8j {
+    background-image: linear-gradient(45deg,rgba(0, 0, 0, 0.646) 0%, rgba(0, 0, 0, 0.646) 100%), url(https://images2.alphacoders.com/793/thumb-1920-793427.png);
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y{
+	background-color: rgba(10, 1, 33, 0.42);
+	border-style: solid;
+	border-color: rgba(128, 255, 0, 0.651);
+	border-width: 0.5px;
+}
+
+.theme-dark .message-2qRu38,
+.flex-1xMQg5.flex-1O1GKY.horizontalReverse-2eTKWD.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.footer-2gL1pp{
+	background-color: black;
+	border-style: solid;
+	border-color: rgba(128, 255, 0, 0.651);
+	border-width: 0.5px;
+}
