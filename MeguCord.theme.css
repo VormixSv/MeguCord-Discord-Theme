@@ -2,7 +2,7 @@
  * @name MeguCord
  * @author Vormix_Sv
  * @description Explosive Megumin Discord Theme by Vormix_Sv!
- * @version 2.1
+ * @version 2.3
  * @authorId 575400456570798080
  * @website https://steamcommunity.com/id/V_Sv_Profile/
  * @source https://github.com/VormixSv/MeguCord-Discord-Theme
@@ -134,15 +134,15 @@ body {
 
 .theme-dark {
 	--header-primary:#00de30;
-	--header-secondary: pink;
+	--header-secondary: green;
 	--text-normal: #ffffff;
 	--text-muted: #72767d;
-	--text-link: #5cf78fd0;
+	--text-link: #5cf7dbd0;
 	--channels-default:  #b5246a;
 	--interactive-normal:  #e478ff;
 	--interactive-hover: white;
 	--interactive-active: yellow;
-	--interactive-muted: #4f545c;
+	--interactive-muted: #a15f73;
 
 	--background-primary: #16091f3b;
 	--background-secondary: #20113860;
@@ -150,7 +150,7 @@ body {
 	--background-secondary-alt: #1f091323;
 	
 	--background-accent:#7fb3ff;
-	--background-floating: rgba(242, 68, 204, 0.35);
+	--background-floating: rgba(43, 45, 49);
 
 	--background-mobile-primary: transparent;
 	--background-mobile-secondary: transparent;
