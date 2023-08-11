@@ -1,4 +1,5 @@
 # MeguCord-Discord-Theme
+![MeguCord (Discord theme by Vormix_Sv)](https://github.com/VormixSv/MeguCord-Discord-Theme/assets/101508835/64207af4-e8c9-4373-9459-3fa8860e42d9)
 <h2>About</h2>
 
 Explosive Megumin Discord Theme for custom Discord themes by Vormix_Sv!
